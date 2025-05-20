@@ -1,0 +1,15 @@
+{
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mocha": "^11.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}

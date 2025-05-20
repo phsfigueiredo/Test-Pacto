@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-20T13:07:49.264Z",
+    "end": "2025-05-20T13:07:56.920Z",
+    "duration": 7656,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c66cbf9f-567b-4c04-9f43-c5fb1a841ab9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\frontend_tests\\TestePesquisa.cy.js",
+      "file": "cypress\\e2e\\frontend_tests\\TestePesquisa.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9824b998-7e7e-4787-bc0c-9eac9cd9303f",
+          "title": "Teste de Pesquisa no Yahoo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Pesquisa por título \"Pacto Soluções\" existente",
+              "fullTitle": "Teste de Pesquisa no Yahoo Pesquisa por título \"Pacto Soluções\" existente",
+              "timedOut": null,
+              "duration": 3982,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\frontend_tests\\\\TestePesquisa.cy.js\"\n}",
+              "code": "_PesquisaActions.default.pesquisar('Pacto Soluções');\n_PesquisaActions.default.validarResultadoExiste();\n_PesquisaActions.default.validarDescricaoContemPactoSolucoes();\n_PesquisaActions.default.validarPosicaoPagina();",
+              "err": {},
+              "uuid": "e26d7ef4-db57-401e-bea3-670ca9a017a9",
+              "parentUUID": "9824b998-7e7e-4787-bc0c-9eac9cd9303f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e26d7ef4-db57-401e-bea3-670ca9a017a9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3982,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "screenshots": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
